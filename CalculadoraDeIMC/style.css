@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #83b2e8;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;   
+}
+
+.container {    
+    width: 300px; /* Reduzindo a largura */
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 20px;
+    border: 1px solid #ccc; /* Adicionando uma borda */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #3b3895;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7363e7;
+}
+
+.alert {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.alert-below {
+    background-color: #ffe0e0;
+    color: #ff0000;
+}
+
+.alert-normal {
+    background-color: #ffffcc;
+    color: #333;
+}
+
+.alert-above {
+    background-color: #e0f7fa;
+    color: #009688;
+}
+
+.alert-obese {
+    background-color: #ffcdd2;
+    color: #f44336;
+}
+
+.alert-risk {
+    background-color: #b71c1c;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #062a04;
+    margin-top: 5%;
+}
+
+.moldura{
+    background-color:rgb(227, 238, 224);
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    padding-top: 50px;
+}
